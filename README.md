@@ -29,7 +29,7 @@ mkdir /opt/docker
 From tomcat:9-jre9 
 
 # Maintainer
-MAINTAINER "DEVOPS with Kamlesh" 
+MAINTAINER "DEVOPS with Vinay" 
 
 # copy war file on to container 
 COPY ./webapp.war /usr/local/tomcat/webapps
@@ -41,7 +41,7 @@ Manage Jenkins --> Configure system -->  Publish over SSH --> add Docker server 
 6. Create Jenkins job 
 
 A) Source Code Management  
- Repository : https://github.com/kamleshrawat/Maven-Project-with-Docker-and-Jenkins.git
+ Repository : https://github.com/VinayKirola/Maven-Project-with-Docker-and-Jenkins.git
  Branches to build : */main  
 
 B) Build
